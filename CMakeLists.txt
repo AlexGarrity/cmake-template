@@ -1,7 +1,7 @@
-cmake_minimum_required(VERESION 3.12)
+cmake_minimum_required(VERSION 3.12)
 project(template)
 
-FILE(SOURCES src/*.cpp)
+FILE(GLOB_RECURSE SOURCES src/*.cpp)
 add_executable(template ${SOURCES})
 target_include_directories(template PRIVATE include)
 
