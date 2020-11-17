@@ -1,3 +1,5 @@
 .clangd/
 build/
+CMakeFiles/
+
 compile_commands.json

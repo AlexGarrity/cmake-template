@@ -10,4 +10,6 @@ if (${TEST_ENABLE})
     add_subdirectory(test)
 endif()
 
+add_subdirectory(ext)
+
 add_subdirectory(template)
